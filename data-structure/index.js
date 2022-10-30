@@ -22,18 +22,48 @@ const teamTwo = [7, 2, 8, 3, 7];
 // teamOneResults.shift();
 
 // object
+// -----------------------------------------
+// let obj = {
+//   name: "jerin",
+//   age: 27,
+//   address: "kumarapuram",
+//   intrests: ["kabaddi", "sleping", "coding"],
+//   school: {
+//     schoolName: "manilikari",
+//     prinicpalName: "xaviour",
+//   },
+// };
 
-let obj = {
-  name: "jerin",
-  age: 27,
-  address: "kumarapuram",
-  intrests: ["kabaddi", "sleping", "coding"],
-  school: {
-    schoolName: "manilikari",
-    prinicpalName: "xaviour",
-  },
-};
+// obj["name"] = "ligi";
 
-obj["name"] = "ligi";
+// console.log(obj);
+// -----------------------------------------
 
-console.log(obj);
+// function testFunc() {
+//   console.log(this);
+// }
+
+// testFunc();
+
+// -----------------------------------
+
+// let jerin = {
+//   firstName: "jerin",
+//   lastName: "happy",
+//   myFunc: function () {
+//     console.log(this)
+//     console.log(`hai ${this.firstName} ${this.lastName}`);
+//   },
+// };
+
+// // jerin.myFunc();
+
+// let ligi = {
+//   firstName: "ligi",
+//   lastName: "preshiba",
+//   newFunc: jerin.myFunc,
+// };
+
+// ligi.newFunc();
+
+// -----------------------------------------

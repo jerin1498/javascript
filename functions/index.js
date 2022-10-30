@@ -1,22 +1,27 @@
 // normal function
 // arrow function
-
-// function addNumbers(x, y) {
-//   console.log(x + y);
+// ------------------------------------
+// function myAdd(x, y) {
+//   const add = x + y;
+//   return add;
 // }
-// addNumbers(4, 8);
-// addNumbers(5, 5);
 
-let myList = [2, 4, 3, 66, 44, 35, 6, 5];
-let myList2 = [2, 4, 3, 66, 44, 35, 6, 43, 5, 4, 3, 25];
+// let result = myAdd(4, 9);
 
-function logEvenNumbers(list) {
-  for (let value of list) {
-    if (value % 2 === 0) {
-      console.log(`${value} is even`);
-    }
-  }
-}
+// console.log(result);
+// ------------------------------------
 
-// logEvenNumbers(myList);
-logEvenNumbers(myList2);
+// function myFunc() {
+//   console.log(this);
+// }
+
+// myFunc();
+// --------------------------------
+
+// --------------------------------
+
+// const multiply = function (x, y) {
+//   return x * y;
+// };
+// multiply(6, 7);
+// --------------------------------

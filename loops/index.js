@@ -1,41 +1,58 @@
 // for loop
-// for in loop
-// for of loop
+// for in loop , only for string and array
+// for of loop , only for string and array
 // while loop
 // do while loop
+// --------------------------------------------------------
+// let myarr = ["jerin", 22, true, false, "990", 0];
+// console.log(myarr[3]);
 
-// let scores = [1, 88, 3, "erj", "ligi", 99];
-
-// for (let i = 0; i < scores.length; i++) {
-//   console.log(scores[i]);
+// for (let i = 0; i < myarr.length; i++) {
+//   console.log(myarr[i]);
 // }
-
-// for (let i = 0; i < 10; i++) {
-//   console.log(`this is from outer loop ${i}`);
-//   for (let j = 0; j < 10; j++) {
-//     console.log(`this is from inner loop ${j}`);
-//   }
-// }
-
-// let allNumbers = [1, 2, 4, 8, 22, 65, 3, 4, 5, 6, 7, 8, 9];
+//-------------------------------------------------------------
+// let allNumbers = [3, 1, 6, 5, 8, 4, 2, 0];
 
 // for (let i = 0; i < allNumbers.length; i++) {
 //   if (allNumbers[i] % 2 === 0) {
-//     console.log(`${allNumbers[i]} is even number`);
+//     console.log(allNumbers[i]);
 //   }
 // }
 
-// let allNumbers = [1, 2, 4, 8, 22, 65, 3, 4, 5, 6, 7, 8, 9];
-// for (let i in allNumbers) { // it will return all the index of the given array
+// ---------------------------------------------------
+
+// for (let i = 0; i < 2; i++) {
+//   console.log("AAAAA ", i);
+//   for (let j = 0; j < 2; j++) {
+//     console.log("BBBBBBBB", j);
+//     for (let k = 0; k < 2; k++) {
+//       console.log("CCCCCCCCC", k);
+//     }
+//   }
+// }
+
+// -------------------------------------------------
+
+// let allNumbers = [3, 1, 6, 5, 8, 4, 2, 0];
+// for (let i in allNumbers) {
 //   if (allNumbers[i] % 2 === 0) {
-//     console.log(`${allNumbers[i]} is even number`);
+//     console.log(allNumbers[i]);
 //   }
 // }
 
-// let allNumbers = [1, 2, 4, 8, 22, 65, 3, 4, 5, 6, 7, 8, 9];
+// --------------------------------------
 
+// let myString = "jerinhappy";
+
+// for (let i in myString) {
+//   console.log(myString[i]);
+// }
+
+// ------------------------------------
+
+// let allNumbers = [3, 1, 6, 5, 8, 4, 2, 0];
 // for (let value of allNumbers) {
 //   if (value % 2 === 0) {
-//     console.log(`${value} is even number`);
+//     console.log(value);
 //   }
 // }
