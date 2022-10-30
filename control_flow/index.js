@@ -2,8 +2,8 @@
 // non emety strings will be consider as true eg 'some thing'
 // numers expect 0 are true
 // true
-// empty list
-// empey object
+// empty list or values consider as true
+// empey object or values consider as true
 
 // falsy values
 // all emety strings are consider as false
@@ -90,3 +90,6 @@ switch (true) {
   default:
     console.log("uncle");
 }
+
+console.log(!true);
+console.log(!false);
