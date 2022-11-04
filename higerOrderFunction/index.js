@@ -1,12 +1,12 @@
-// function outerFunciton() {
-//   function innerFuncion() {
-//     console.log("im inner function");
-//   }
-//   return innerFuncion;
-// }
+function outerFunciton() {
+  function innerFuncion() {
+    console.log("im inner function");
+  }
+  return innerFuncion;
+}
 
-// let resultFunc = outerFunciton();
-// resultFunc();
+let resultFunc = outerFunciton();
+resultFunc();
 
 function doubble(x) {
   const result = x * 2;
