@@ -2,9 +2,15 @@
 
 // "somthing" ----> false
 
-function checkPalandrome() {}
+function checkPalandrome(str) {
+  for (let i in str) {
+    if (str[i] !== str[str.length - 1 - i]) {
+      return false;
+    }
+    return true;
+  }
+}
 
-let name = "somethieng";
+let str = "121";
 
-let nameArray = name.split("");
-console.log(nameArray);
+console.log(checkPalandrome(str));
